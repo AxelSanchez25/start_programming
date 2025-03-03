@@ -13,10 +13,23 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    
 }
 
 .ul-iz a{
     margin: 2em;
     text-transform: capitalize;
     text-decoration: none;
+    color: black;
+}
+
+.ul-de{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15em;
+}
+
+.ul-de a{
+    margin: 2em;
 }
