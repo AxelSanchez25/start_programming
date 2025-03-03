@@ -17,4 +17,6 @@
 
 .ul-iz a{
     margin: 2em;
+    text-transform: capitalize;
+    text-decoration: none;
 }
