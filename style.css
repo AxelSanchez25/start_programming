@@ -7,17 +7,26 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    
 }
 
 .ul-iz{
     display: flex;
     align-items: center;
     flex-direction: row;
+    list-style: none;
     
 }
 
+.ul-iz img{
+    height: 3em;
+}
+
 .ul-iz a{
-    margin: 2em;
+    margin: 0.8em;
     text-transform: capitalize;
     text-decoration: none;
     color: black;
@@ -27,9 +36,29 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 15em;
+    margin-left: 25em;
+    list-style: none;
 }
 
 .ul-de a{
     margin: 2em;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid greenyellow;
+    color: green;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section1 img{
+    width: 50%;
+    height: 40em
 }
